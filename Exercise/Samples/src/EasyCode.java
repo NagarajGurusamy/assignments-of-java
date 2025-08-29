@@ -12,7 +12,7 @@ public class EasyCode {
 
         System.out.println("fruitsList: "+ fruitsList);
         //updatinng the third element to orange
-        System.out.println(fruitsList.set(2,"Orange"));
+        System.out.println(fruitsList.remove(2));
         System.out.println(fruitsList);
     }
 }
