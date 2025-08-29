@@ -10,9 +10,11 @@ public class EasyCode {
         fruitsList.add("Pappaya");
         fruitsList.add("Grapes");
 
-        System.out.println("fruitsList: "+ fruitsList);
-        //updatinng the third element to orange
-        System.out.println(fruitsList.remove(2));
-        System.out.println(fruitsList);
+        if (fruitsList.contains("Apple")) {
+            System.out.println("The fruit was founded");
+        } else {
+            System.out.println("Fruit was not available");
+        }
+
     }
 }
