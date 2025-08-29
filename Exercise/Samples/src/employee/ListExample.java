@@ -13,6 +13,7 @@ public class ListExample {
         Employee employee_4 = new Employee(4,"Navya",2000);
         Employee employee_5 = new Employee(5,"Deepa",2000);
         Employee employee_6 = new Employee(6,"Nylah",2000);
+        Employee employee_7 = new Employee(7,"Naveen",2000);
 
 
         employeeList.add(employee_1);
@@ -21,6 +22,9 @@ public class ListExample {
         employeeList.add(employee_4);
         employeeList.add(employee_5);
         employeeList.add(employee_6);
+
+
+        employeeList.add(0,employee_7);
 
 
         System.out.println("Size of the list...." + employeeList.size());
