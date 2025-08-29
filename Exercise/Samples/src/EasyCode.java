@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class EasyCode {
@@ -10,11 +11,9 @@ public class EasyCode {
         fruitsList.add("Pappaya");
         fruitsList.add("Grapes");
 
-        if (fruitsList.contains("Apple")) {
-            System.out.println("The fruit was founded");
-        } else {
-            System.out.println("Fruit was not available");
-        }
+        System.out.println("Before Sorting the List of fruits"+fruitsList);
+        Collections.sort(fruitsList);
+        System.out.println("After Sorting the List of fruits"+ fruitsList);
 
     }
 }
